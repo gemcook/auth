@@ -1,8 +1,7 @@
 {
   "name": "@gemcook/auth",
   "version": "0.1.0",
-  "main": "lib/index.umd.js",
-  "module": "lib/index.es.js",
+  "module": "lib/index.js",
   "repository": "https://github.com/gemcook/auth.git",
   "author": "shsssskn <shsssskn@gmail.com>",
   "license": "MIT",
