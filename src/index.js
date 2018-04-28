@@ -10,3 +10,4 @@ export {default as checkSession} from './checkSession';
 export {default as getIdToken} from './getIdToken';
 export {default as registeSNSUser} from './registeSNSUser';
 export {default as signInSNS} from './signInSNS';
+export {default as errorMessages} from './errorMessages';
