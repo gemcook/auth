@@ -811,7 +811,7 @@ ajv@^6.0.1:
     json-schema-traverse "^0.3.0"
     uri-js "^3.0.2"
 
-amazon-cognito-auth-js@1.2.0, amazon-cognito-auth-js@^1.1.9:
+amazon-cognito-auth-js@^1.1.9, amazon-cognito-auth-js@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/amazon-cognito-auth-js/-/amazon-cognito-auth-js-1.2.0.tgz#637f044a3a6114d6d0a87b415157ea36f32431e8"
 
@@ -943,7 +943,7 @@ atob@^2.0.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.1.tgz#ae2d5a729477f289d60dd7f96a6314a22dd6c22a"
 
-aws-amplify@0.3.3:
+aws-amplify@^0.3.3:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/aws-amplify/-/aws-amplify-0.3.3.tgz#b12aa6c90893d716dd9691c7ff55b38cf1f1ffc6"
   dependencies:

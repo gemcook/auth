@@ -4,7 +4,7 @@ import {Auth} from 'aws-amplify';
 export default function signUp(
   email: string,
   password: string,
-  attributes: {},
+  attributes: Object,
 ): Promise<*> {
   return new Promise((resolve, reject) => {
     let params: {
