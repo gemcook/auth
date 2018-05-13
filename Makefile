@@ -12,5 +12,4 @@ prepublish:
 
 	$(MAKE) build-es
 
-	yarn run build:flow-gen
-#	cp ./flow-typed/index.js.flow ./lib/index.js.flow
+	cp ./flow-typed/index.js.flow ./lib/index.js.flow
