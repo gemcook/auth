@@ -1,12 +1,16 @@
 {
   "name": "@gemcook/auth",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "lib/index.js",
   "module": "lib/index.js",
   "repository": "https://github.com/gemcook/auth.git",
   "author": "shsssskn <shsssskn@gmail.com>",
   "license": "MIT",
-  "files": ["lib", "README.md", "LICENSE"],
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
   "devDependencies": {
     "@babel/cli": "7.0.0-beta.46",
     "@babel/core": "7.0.0-beta.46",
