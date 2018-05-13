@@ -1,10 +1,10 @@
 /* @flow */
 import {Auth} from 'aws-amplify';
 import {CognitoAuth} from 'amazon-cognito-auth-js/dist/amazon-cognito-auth';
-import federation from './federation';
+import authSettings from './authSettings';
 
 export default function signInSNS(): Promise<*> {
-  let config = federation;
+  let config = authSettings;
 
   return new Promise((resolve, reject) => {
     const url = window.location.href;

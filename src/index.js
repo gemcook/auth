@@ -8,6 +8,7 @@ export {default as forgotPassword} from './forgotPassword';
 export {default as confirmForgotPassword} from './confirmForgotPassword';
 export {default as checkSession} from './checkSession';
 export {default as getIdToken} from './getIdToken';
+export {default as getUserClaim} from './getUserClaim';
 export {default as registeSNSUser} from './registeSNSUser';
 export {default as signInSNS} from './signInSNS';
 export {default as errorMessages} from './errorMessages';

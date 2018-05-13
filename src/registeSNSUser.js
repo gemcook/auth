@@ -1,9 +1,9 @@
 /* @flow */
 import {CognitoAuth} from 'amazon-cognito-auth-js/dist/amazon-cognito-auth';
-import federation from './federation';
+import authSettings from './authSettings';
 
 export default function registeSNSUser(snsType: string): Promise<*> {
-  let config = federation;
+  let config = authSettings;
   config.IdentityProvider = snsType;
 
   const auth = new CognitoAuth(config);
