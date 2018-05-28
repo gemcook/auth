@@ -12,3 +12,4 @@ export {default as getUserClaim} from './getUserClaim';
 export {default as registeSNSUser} from './registeSNSUser';
 export {default as signInSNS} from './signInSNS';
 export {default as errorMessages} from './errorMessages';
+export {default as updateAttributes} from './updateAttributes';
