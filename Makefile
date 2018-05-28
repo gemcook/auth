@@ -13,3 +13,6 @@ prepublish:
 	$(MAKE) build-es
 
 	cp ./flow-typed/index.js.flow ./lib/index.js.flow
+
+publish:
+	yarn publish --access public
