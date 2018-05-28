@@ -1,7 +1,7 @@
 /* @flow */
 import {Auth} from 'aws-amplify';
 
-export default function getIdToken(
+export default function updateUserAttributes(
   attributes: Object,
   logging?: boolean = false,
 ): Promise<*> {
