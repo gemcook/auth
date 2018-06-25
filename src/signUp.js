@@ -25,7 +25,8 @@ export default function signUp(
         resolve(data);
       })
       .catch(err => {
-        reject(err);
+        console.warn(err);
+        resolve(err);
       });
   });
 }
