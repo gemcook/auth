@@ -10,9 +10,10 @@ export default function checkSession(logging?: boolean = false): Promise<*> {
         console.warn(session);
       }
 
-      resolve(true);
+      resolve(session);
     } catch (e) {
-      reject(false);
+      console.info(e);
+      resolve(false);
     }
   });
 }
