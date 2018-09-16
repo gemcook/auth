@@ -36,6 +36,11 @@ declare export function signUp(
   password: string,
   attributes: Object,
 ): Promise<any>;
+declare export function initAmplify(
+  region: string,
+  userPoolId: string,
+  userPoolWebClientId: string,
+): Promise<any>;
 declare export function updateAttributes(
   attributes: Object,
   logging?: boolean,
