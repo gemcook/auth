@@ -1197,10 +1197,10 @@ babel-plugin-transform-react-remove-prop-types@^0.4.18:
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-react-remove-prop-types/-/babel-plugin-transform-react-remove-prop-types-0.4.18.tgz#85ff79d66047b34288c6f7cc986b8854ab384f8c"
   integrity sha512-azed2nHo8vmOy7EY26KH+om5oOcWRs0r1U8wOmhwta+SBMMnmJ4H6yaBZRCcHBtMeWp9AVhvBTL/lpR1kEx+Xw==
 
-babel-preset-stage-flow@^7.1.4:
-  version "7.1.4"
-  resolved "https://registry.yarnpkg.com/babel-preset-stage-flow/-/babel-preset-stage-flow-7.1.4.tgz#3d829f3fe9d9917ce8779a5acb58593dd95c00a6"
-  integrity sha512-vxQBbCQ85KJL/1WW3Fxj8IttLdQaTpzDNVUOda6X9/2OLvYYRXFqRb5QJ5T2HU16uJiZMueiiLOj1kn2Jww+PQ==
+babel-preset-stage-flow@^7.1.4-patch.1:
+  version "7.1.4-patch.1"
+  resolved "https://registry.yarnpkg.com/babel-preset-stage-flow/-/babel-preset-stage-flow-7.1.4-patch.1.tgz#cfa64d7a8b3c8d7e78ac2b049a6339c6777009e1"
+  integrity sha512-EOaXBUzJVb3+etojbgfBMVYcg3GH+WkjAziwYW7a9SKL1FYwSHhCvFC4fCDl70xvYah2YKTVzZZFyTMkR/eqbQ==
   dependencies:
     "@babel/core" "^7.1.2"
     "@babel/helper-plugin-utils" "7.0.0"
