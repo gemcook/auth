@@ -37,6 +37,7 @@
     "prepublishOnly": "make prepublish"
   },
   "dependencies": {
+    "@babel/runtime-corejs2": "^7.1.2",
     "amazon-cognito-auth-js": "^1.2.4",
     "aws-amplify": "^1.1.6",
     "store": "2.0.12"
