@@ -2,7 +2,7 @@ clean:
 	rm -rf ./lib/
 
 build-es:
-	NODE_PATH=$(shell which node) \
+	NODE_PATH="$(shell which node)" \
 	NODE_ENV=production \
 	BABEL_ENV=production \
 	yarn run build:es
@@ -16,3 +16,6 @@ prepublish:
 
 publish:
 	yarn publish --access public
+
+gen-flow:
+	flow gen-flow-files src/index.js --out-dir flow-typed
