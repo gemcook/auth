@@ -1,6 +1,6 @@
 {
   "name": "@gemcook/auth",
-  "version": "2.1.0-nightly.2",
+  "version": "2.1.0-nightly.3",
   "main": "lib/index.js",
   "module": "lib/index.js",
   "repository": "https://github.com/gemcook/auth.git",
