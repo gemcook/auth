@@ -14,3 +14,4 @@ export {default as signInSNS} from './signInSNS';
 export {default as errorMessages} from './errorMessages';
 export {default as updateAttributes} from './updateAttributes';
 export {default as initAmplify} from './initAmplify';
+export {default as resendSignUp} from './resendSignUp';
