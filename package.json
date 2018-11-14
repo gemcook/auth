@@ -1,6 +1,6 @@
 {
   "name": "@gemcook/auth",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "main": "lib/index.js",
   "module": "lib/index.js",
   "repository": "https://github.com/gemcook/auth.git",
@@ -53,7 +53,7 @@
   },
   "dependencies": {
     "amazon-cognito-auth-js": "^1.2.4",
-    "aws-amplify": "^1.1.6",
+    "aws-amplify": "^1.1.10",
     "store": "2.0.12"
   }
 }
