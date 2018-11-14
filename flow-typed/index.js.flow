@@ -1,5 +1,5 @@
-/* eslint-disable */
-/* @flow */
+// @flow
+
 declare export function changePassword(
   oldPassword: string,
   newPassword: string,
@@ -24,7 +24,13 @@ declare export var errorMessages: {
 declare export function forgotPassword(username: string): Promise<any>;
 declare export function getIdToken(logging?: boolean): Promise<any>;
 declare export function getUserClaim(logging?: boolean): Promise<any>;
+declare export function initAmplify(
+  region: string,
+  userPoolId: string,
+  userPoolWebClientId: string,
+): void;
 declare export function registeSNSUser(snsType: string): Promise<any>;
+declare export function resendSignUp(username: string): Promise<any>;
 declare export function signIn(
   username: string,
   password: string,
@@ -35,11 +41,6 @@ declare export function signUp(
   email: string,
   password: string,
   attributes: Object,
-): Promise<any>;
-declare export function initAmplify(
-  region: string,
-  userPoolId: string,
-  userPoolWebClientId: string,
 ): Promise<any>;
 declare export function updateAttributes(
   attributes: Object,
