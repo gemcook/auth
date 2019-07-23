@@ -1,6 +1,6 @@
 {
   "name": "@gemcook/auth",
-  "version": "2.1.1-test",
+  "version": "2.1.2-test",
   "main": "lib/index.js",
   "repository": "https://github.com/gemcook/auth.git",
   "author": "Gemcook Engineers <engineers@gemcook.com>",
