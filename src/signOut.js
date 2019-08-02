@@ -1,6 +1,6 @@
 /* @flow */
 import {Auth} from 'aws-amplify';
-import store from 'store';
+import store from 'store/dist/store.modern';
 
 export default function signOut(): Promise<*> {
   return new Promise((resolve, reject) => {

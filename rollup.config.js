@@ -74,6 +74,9 @@ export default [
       file: 'lib/index.js',
       format: 'umd',
       name: 'Auth',
+      globals: {
+        'aws-amplify': 'Amplify',
+      },
     },
   },
 ];
